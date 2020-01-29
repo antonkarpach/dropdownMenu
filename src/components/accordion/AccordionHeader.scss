@@ -1,0 +1,12 @@
+.AccordionHeader {
+  display: flex;
+  justify-content: space-between;
+
+  &--available {
+    cursor: pointer;
+  }
+
+  &__title {
+    user-select: none;
+  }
+}

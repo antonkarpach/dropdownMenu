@@ -1,0 +1,20 @@
+.Accordion {
+  display: flex;
+  flex-direction: column;
+
+  > .AccordionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  > .AccordionContent {
+    display: inline-block;
+
+    &--close {
+      visibility: hidden;
+      height: 0;
+      padding-top: 0;
+    }
+  }
+}
