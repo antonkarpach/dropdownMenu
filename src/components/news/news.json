@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Microsoft",
+    "description":"The Microsoft is the best company all over the world ",
+    "tag": "tech"
+  },
+  {
+    "name": "Google",
+    "description":"The Google is the best which i have ever seen ",
+    "tag": "tech"
+  },
+  {
+    "name": "Mr.Brown",
+    "description":"He said: Every day like new string nobody know nothing ",
+    "tag": "social"
+  }
+]

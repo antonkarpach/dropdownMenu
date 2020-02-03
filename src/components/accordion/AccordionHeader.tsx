@@ -1,6 +1,7 @@
 import React from 'react';
 import './AccordionHeader.scss';
 import classNames from 'classnames';
+import AccordionActionIcon from "./AccordionActionIcon";
 
 interface Props {
     title: React.ReactNode;
@@ -8,13 +9,14 @@ interface Props {
     onClick: () => void;
 }
 
-const AccordionHeader: React.FC<Props> = props =>{
-    return(
+const AccordionHeader: React.FC<Props> = props => {
+    return (
         <section
             className={classNames('AccordionHeader')}
             onClick={props.onClick}
-            >
-            <h5 className="AccordionHeader__title">{props.title}</h5>
+        >
+            <div className="AccordionHeader__title">{props.title}</div>
+            <AccordionActionIcon isClose={props.isClose}/>
         </section>
     );
 };

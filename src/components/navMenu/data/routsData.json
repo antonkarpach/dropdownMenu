@@ -1,0 +1,15 @@
+[
+  {
+    "listTitle": "Вкладка 1",
+    "listPath": "http://localhost:3000"
+  },
+  {
+    "listTitle": "Вкладка 2",
+    "listPath": "http://localhost:3000"
+  },
+  {
+    "listTitle": "Вкладка 3",
+    "listPath": "http://localhost:3000"
+  }
+]
+
