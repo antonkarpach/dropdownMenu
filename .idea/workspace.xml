@@ -2,59 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f91a400d-0cec-434e-bd14-b6f89a4121cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/CB/A.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CB/B.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CB/C.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CB/Cb.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Label.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/block/Block.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/block/List.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/block/ListTittle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/block/Title.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/block/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navMenu/DropdownItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navMenu/navMenuItemTitle.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navMenu/navMenuItemTitle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/news/News.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/news/News.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/news/NewsFilter.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/news/NewsFilter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/news/NewsItem.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/news/NewsItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/news/NewsList.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/news/NewsList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/news/interfaces/NewsItem.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/news/news.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/news/services/sort.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/radio/Radio.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/radio/radio.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/temperatureCalc/temperatureCalc.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/news/ChangeTagFields.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Acc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Acc.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Acc.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Acc.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chevron-down-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/chevron-down-solid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chevron-up-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/chevron-up-solid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Hello.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hello.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/accordion/Accordion.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/accordion/Accordion.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/accordion/AccordionActionIcon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/accordion/AccordionActionIcon.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/accordion/AccordionHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/accordion/AccordionHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navMenu/Dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navMenu/Dropdown.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navMenu/Dropdown.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navMenu/Dropdown.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navMenu/NavMenu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navMenu/NavMenu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navMenu/NavMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navMenu/NavMenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navMenu/NavMenuItem.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navMenu/NavMenuItem.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navMenu/NavMenuItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navMenu/NavMenuItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navMenu/data/routsData.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navMenu/data/routsData.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Label.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Label.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/news/News.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/news/News.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/news/NewsFilter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/news/NewsFilter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/radio/Radio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/radio/Radio.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,8 +97,16 @@
       <workItem from="1580206758578" duration="276000" />
       <workItem from="1580207069932" duration="730000" />
       <workItem from="1580207815089" duration="83698000" />
-      <workItem from="1580469497798" duration="45538000" />
+      <workItem from="1580469497798" duration="53297000" />
     </task>
+    <task id="LOCAL-00001" summary="To work at university">
+      <created>1580755763307</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580755763307</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +114,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="To work at university" />
+    <option name="LAST_COMMIT_MESSAGE" value="To work at university" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1051" y="214" width="800" height="677" key="#ESLint" timestamp="1580045705019">
@@ -170,6 +134,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1580386740851" />
+    <state x="538" y="149" width="900" height="807" key="CommitChangelistDialog2" timestamp="1580755763100">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="538" y="149" width="900" height="807" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1580755763100" />
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1580131419364">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -194,6 +162,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="670" y="186" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1580046616519" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1580755771471">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1580755771471" />
     <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1580398727815">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

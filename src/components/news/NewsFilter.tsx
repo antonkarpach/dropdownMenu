@@ -1,21 +1,20 @@
 import React from "react";
 import "./NewsFilter.scss";
 import Radio from "../radio/Radio";
-import {radioNames} from "./services/sort.service";
+import {ChangeTagFields} from './ChangeTagFields';
 
 interface Props {
-    onRadioClick: (value: any) => void;
+    onFilterChange: (tag: ChangeTagFields) => void;
 }
 
 
 const NewsFilter: React.FC<Props> = props => {
-    const getRadioName = () => {
-        // return console.log(props.title)
-    };
-    return(
-        <div className="NewsFilter" >
-            <Radio title={radioNames[0]} onRadioClick={props.onRadioClick} id="g1" name="radio"/>
-            <Radio title={radioNames[1]} onRadioClick={props.onRadioClick} id="g2" name="radio"/>
+    return (
+        <div className="NewsFilter">
+            <Radio label={ChangeTagFields.tech} id="g1" name="radio"
+                   value={ChangeTagFields.tech} onChange={props.onFilterChange}/>
+            <Radio label={ChangeTagFields.social} id="g2" name="radio"
+                   value={ChangeTagFields.social} onChange={props.onFilterChange}/>
         </div>
     );
 };

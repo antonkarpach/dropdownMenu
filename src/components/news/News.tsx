@@ -4,32 +4,20 @@ import NewsFilter from "./NewsFilter";
 import data from "./news.json";
 import NewsList from "./NewsList";
 import SortService from './services/sort.service';
+import {ChangeTagFields} from "./ChangeTagFields";
 
 
-interface Props {
-    // news?: NewsListInterface[];
-}
-
-enum tags {
-    'tech',
-    'social',
-}
-
-const News: React.FC<Props> = props => {
+const News: React.FC = () => {
     const [newsList, setNewsList] = useState(data);
-    const [activeFilter, setActiveFilter] = useState(false);
 
 
-    const onFilterChange = (tag: string) => {
-        setActiveFilter(!activeFilter);
+    const onFilterChange = (tag: ChangeTagFields) => {
         setNewsList(SortService.filterByTag(data, tag));
-
-        console.log("this is a click");
     };
 
     return (
         <div className="News">
-            <NewsFilter onRadioClick={onFilterChange}/>
+            <NewsFilter onFilterChange={onFilterChange}/>
             <NewsList list={newsList}/>
         </div>
     );

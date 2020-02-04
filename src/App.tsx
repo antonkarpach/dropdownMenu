@@ -20,14 +20,14 @@ const App: React.FC = () => {
     return (
         <div className="App">K
             <header className="App-header">
-                <Accordion title={"this is the tittle1"} isClose={true}>Some content1 </Accordion>
-                <Accordion title={"this is the tittle2"}>Some content2 </Accordion>
+                {/*<Accordion title={"this is the tittle1"} isClose={true}>Some content1 </Accordion>*/}
+                {/*<Accordion title={"this is the tittle2"}>Some content2 </Accordion>*/}
                 <div className={"border"}/>
                 <div></div>
-                <NavMenu/>
+                {/*<NavMenu/>*/}
                 <div className={"border"}/>
                 <div></div>
-                <Radio title={"First radio"} id="aa" name="aa" />
+                {/*<Radio title={"First radio"} id="aa" name="aa" />*/}
                 <div className={"border"}/>
                 <div></div>
                 <div className={"border"}/>

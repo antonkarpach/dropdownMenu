@@ -1,29 +1,29 @@
-import React, {useMemo} from "react";
+import React, {ChangeEvent, useMemo} from "react";
 import './radio.scss';
 import Label from "../Label";
 import SortService from "../news/services/sort.service";
+import {ChangeTagFields} from "../news/ChangeTagFields";
 
 interface Props {
-    title: string;
+    label: string;
     id: string;
     name?: string;
-    onRadioClick?: (value: any) => void;
+    value: string;
+    onChange: (value: ChangeTagFields) => void;
 }
 
 const Radio: React.FC<Props> = props => {
-    const onGetTitle = () => {
-       alert(props.title);
+    const onChange = (event: any) => {
+        props.onChange(event.target.value);
     };
-
-    return(
-        <div className="Checkbox" onClick={onGetTitle}>
-            <input type="radio" id={props.id}  onChange={props.onRadioClick} name={props.name}/>
-            <Label title={props.title} htmlFor={props.id}/>
+    return (
+        <div className="Checkbox">
+            <input type="radio" id={props.id} onChange={onChange} name={props.name} value={props.value}/>
+            <Label htmlFor={props.id}>{props.label}</Label>
         </div>
     );
 };
 
-Radio.defaultProps = {
-};
+Radio.defaultProps = {};
 
 export default Radio;
