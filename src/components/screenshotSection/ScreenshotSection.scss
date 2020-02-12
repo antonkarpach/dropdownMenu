@@ -1,0 +1,83 @@
+.ScreenshotSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 70px 0;
+  font-family: sans-serif;
+  color: #1c3664;
+  background-color: white;
+
+  .Description {
+    width: 35%;
+
+    @media screen and (max-width: 720px) {
+      width: 80%;
+    }
+  }
+
+  .Depiction {
+    width: 55%;
+
+    @media screen and (max-width: 720px) {
+      width: 80%;
+      margin: 10px;
+    }
+  }
+
+  &--white {
+    color: #1c3664;
+    background-color: white;
+  }
+
+  &--black {
+    color: #4b93ff;
+    background-color: black;
+  }
+
+  &--blue {
+    color: #1c3664;
+    background-color: aqua;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1110px;
+
+    &--reverse {
+      flex-direction: row-reverse;
+    }
+  }
+
+  @media screen and (max-width: 1140px) {
+    &__container {
+      width: 930px;
+    }
+  }
+
+  @media screen and (max-width: 960px) {
+    &__container {
+      width: 690px;
+    }
+  }
+
+  @media screen and (max-width: 720px) {
+    padding: 40px 0;
+
+    &__container {
+      flex-direction: column;
+      width: 540px;
+    }
+  }
+
+  @media screen and (max-width: 540px) {
+    padding: 40px 0;
+
+    &__container {
+      width: 494px;
+      //max-width: 100%;
+    }
+  }
+}

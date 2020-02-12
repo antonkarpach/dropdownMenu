@@ -11,14 +11,20 @@ import News from "./components/news/News";
 import TemperatureCalc from "./temperatureCalc/temperatureCalc";
 import Cb from "./components/CB/Cb";
 import Block from "./components/block/Block";
-
+import RadioT from "./components/NewsT/radioT/RadioT";
+import NewsT from "./components/NewsT/NewsT";
+import Fruits from "./components/fruits/Fruits";
+import ScreenshotSection, {ColorScheme} from "./components/screenshotSection/ScreenshotSection";
+import icon from './images/react.png';
+import scr from './images/scr.png';
+import Slider from "./components/slider/Slider";
 
 
 const App: React.FC = () => {
     // const [count, setCount] = useState(0);
 
     return (
-        <div className="App">K
+        <div className="App">
             <header className="App-header">
                 {/*<Accordion title={"this is the tittle1"} isClose={true}>Some content1 </Accordion>*/}
                 {/*<Accordion title={"this is the tittle2"}>Some content2 </Accordion>*/}
@@ -32,12 +38,26 @@ const App: React.FC = () => {
                 <div></div>
                 <div className={"border"}/>
                 <br/>
-                <News/>
+                {/*<News/>*/}
                 <div className={"border"}/>
                 <br/>
+                {/*<NewsT/>*/}
+                {/*<Fruits/>*/}
+                <ScreenshotSection
+                    title="BACK YOUR DECISIONS WITH UNBIASED RATINGS "
+                    description="Renaissance Capital has been rating IPOs for over 25 years.
+                     Our clients know that we call them like we see them. All of our ratings
+                      are completely independent and unbiased, so you know you’re getting research
+                       opinions, not Wall Street sales pitches."
+                    icon={icon}
+                    imageUrl={scr}
+                    reverse={false}
+                    colorScheme={ColorScheme.White}
+                />
+                {/*<SiteSlider/>*/}
+                <br/>
 
-
-
+                <Slider/>
 
 
 

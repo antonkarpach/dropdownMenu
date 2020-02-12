@@ -1,0 +1,29 @@
+.Description {
+  max-width: 100%;
+  text-align: left;
+
+  &__icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #b8dbe5;
+
+    img {
+      width: 64px;
+      height: 64px;
+    }
+  }
+
+  &__title {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  &__description {
+    font-size: 18px;
+    text-align: justify;
+  }
+}

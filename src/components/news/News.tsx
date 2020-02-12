@@ -8,8 +8,8 @@ import {ChangeTagFields} from "./ChangeTagFields";
 
 
 const News: React.FC = () => {
+    console.log(SortService.filterByTag(data,'tech'));
     const [newsList, setNewsList] = useState(data);
-
 
     const onFilterChange = (tag: ChangeTagFields) => {
         setNewsList(SortService.filterByTag(data, tag));
