@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 // import logo from './logo.svg';
-import './App.scss';
+// import './App.scss';
 // import Acc from "./Acc";
 // import Hello from "./components/Hello";
 // import Button from "./components/Button";
@@ -18,6 +18,10 @@ import ScreenshotSection, {ColorScheme} from "./components/screenshotSection/Scr
 import icon from './images/react.png';
 import scr from './images/scr.png';
 import Slider from "./components/slider/Slider";
+import Menu from "./site/menu/Menu";
+import { BrowserRouter, Route, Link } from "react-router-dom";
+import Container from "./site/container/Container";
+import Footer from "./site/footer/Footer";
 
 
 const App: React.FC = () => {
@@ -28,39 +32,36 @@ const App: React.FC = () => {
             <header className="App-header">
                 {/*<Accordion title={"this is the tittle1"} isClose={true}>Some content1 </Accordion>*/}
                 {/*<Accordion title={"this is the tittle2"}>Some content2 </Accordion>*/}
-                <div className={"border"}/>
-                <div></div>
+                {/*<div className={"border"}/>*/}
+                {/*<div></div>*/}
                 {/*<NavMenu/>*/}
-                <div className={"border"}/>
-                <div></div>
+                {/*<div className={"border"}/>*/}
+                {/*<div></div>*/}
                 {/*<Radio title={"First radio"} id="aa" name="aa" />*/}
-                <div className={"border"}/>
-                <div></div>
-                <div className={"border"}/>
-                <br/>
+                {/*<div className={"border"}/>*/}
+                {/*<div></div>*/}
+                {/*<div className={"border"}/>*/}
+                {/*<br/>*/}
                 {/*<News/>*/}
-                <div className={"border"}/>
-                <br/>
+                {/*<div className={"border"}/>*/}
+                {/*<br/>*/}
                 {/*<NewsT/>*/}
                 {/*<Fruits/>*/}
-                <ScreenshotSection
-                    title="BACK YOUR DECISIONS WITH UNBIASED RATINGS "
-                    description="Renaissance Capital has been rating IPOs for over 25 years.
-                     Our clients know that we call them like we see them. All of our ratings
-                      are completely independent and unbiased, so you know you’re getting research
-                       opinions, not Wall Street sales pitches."
-                    icon={icon}
-                    imageUrl={scr}
-                    reverse={false}
-                    colorScheme={ColorScheme.White}
-                />
+                {/*<ScreenshotSection*/}
+                {/*    title="BACK YOUR DECISIONS WITH UNBIASED RATINGS "*/}
+                {/*    description="Renaissance Capital has been rating IPOs for over 25 years.*/}
+                {/*     Our clients know that we call them like we see them. All of our ratings*/}
+                {/*      are completely independent and unbiased, so you know you’re getting research*/}
+                {/*       opinions, not Wall Street sales pitches."*/}
+                {/*    icon={icon}*/}
+                {/*    imageUrl={scr}*/}
+                {/*    reverse={false}*/}
+                {/*    colorScheme={ColorScheme.White}*/}
+                {/*/>*/}
                 {/*<SiteSlider/>*/}
-                <br/>
+                {/*<br/>*/}
 
-                <Slider/>
-
-
-
+                {/*<Slider/>*/}
 
 
                 {/*<img src={logo} className="App-logo" alt="logo"/>*/}
@@ -89,6 +90,10 @@ const App: React.FC = () => {
                 {/*    onClick={() => console.log('Button works!!!')}*/}
                 {/*    active*/}
                 {/*/>*/}
+
+                    <Menu/>
+                    <Container/>
+                    <Footer/>
             </header>
         </div>
     );

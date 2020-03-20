@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  background-color: #4b93ff;
+
+  &__grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 808px;
+    background-color: #61dafb;
+  }
+}
+
+.container__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  background-color: #b8dbe5;
+}

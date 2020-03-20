@@ -1,0 +1,20 @@
+.footer {
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    color: white;
+    background-color: #282c34;
+
+    &__left {
+      //display: flex;
+      justify-content: flex-start;
+    }
+
+    &__right {
+      //display: flex;
+      justify-content: flex-end;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: black;
+
+  &__item {
+    color: white;
+    background-color: #61dafb;
+  }
+}
