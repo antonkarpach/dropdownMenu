@@ -13,7 +13,7 @@ export const fruits: FruitItem[] = [
     },
     {
         "name": "orange",
-        "description": "What we can to know about orange, maybe nothing, but they like it.",
+        "description": "What we can to know about orange, maybe nothing, but they like itf.",
         "image": "https://foodcity.ru/storage/products/October2018/6XZSr6ddCl6cxfo0UchP.jpg"
     }
 ];
